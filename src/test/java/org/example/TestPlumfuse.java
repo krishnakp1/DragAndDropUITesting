@@ -23,7 +23,7 @@ public class TestPlumfuse {
 
     @BeforeTest
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/sivashankar/Desktop/KP/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "add path to chromedriver.exe file");
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
